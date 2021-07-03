@@ -126,7 +126,7 @@ export default function Layout({ children }) {
 
 
 
-          <Link href="mailto:noelia81raffo@gmail.com">
+          <Link href="mailto:noelia81raffo@hotmail.com">
             <button
               aria-label="send me a mail"
               target="_blank"
