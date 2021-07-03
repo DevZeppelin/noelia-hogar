@@ -89,7 +89,7 @@ export default function Home({ blogs }) {
             </div>
           </div>
           <div className="md:w-1/4 flex flex-auto items-center justify-center align-middle mr-6">
-          <img src="logo.png" alt="hogar" className="logoMain" width="340" height="340" />            
+          <img src="logo.png" alt="hogar" className="logoMain" width="330" height="330" />            
           </div>
         </div>
         <div>
