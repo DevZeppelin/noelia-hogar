@@ -88,7 +88,7 @@ export default function Home({ blogs }) {
               </div>
             </div>
           </div>
-          <div className="md:w-1/4 flex flex-auto items-center justify-center align-middle mr-6">
+          <div className="md:w-1/4 flex flex-auto items-center justify-center align-middle md:mr-6">
           <img src="logo.png" alt="hogar" className="logoMain" width="330" height="330" />            
           </div>
         </div>
@@ -131,15 +131,15 @@ export default function Home({ blogs }) {
 
           @keyframes infiniteScale {
             from {
-              transform: scale(1.1)
+              transform: scale(1.0)
             }
 
             50% {
-              transform: scale(1.2)
+              transform: scale(0.9)
             }
 
             to {
-              transform: scale(1.1)
+              transform: scale(1.0)
             }
           }
 
