@@ -92,7 +92,7 @@ export default function Layout({ children }) {
       {children}
 
       
-      <div className="bg-secundary text-background px-6 md:px-24 flex flex-col py-10 mt-8">
+      <div className="bg-secundary text-background px-6 md:px-24 flex flex-col py-5 mt-8">
         <p className="text-center text-2xl pb-6">¡Contactame!</p>
         <div
           id="contacto"
@@ -140,7 +140,7 @@ export default function Layout({ children }) {
         <p className="text-center text-lg mt-6">¡ Pago y Financiamiento con Mercado Pago y todas las tarjetas !</p>
        
 
-        <div className="mt-10 text-sm max-w-2xl text-primary">
+        <div className="mt-10 text-sm max-w-4xl text-primary">
           Make with &#128153; in Mendoza, Argentina, by Gino Pietrobon. My page: <a href="https://www.moonblog.ar" target="_blank" className="text-primary text-bold">moonblog.ar</a> All
           rights reserved. &copy; &nbsp; {new Date().getFullYear()}
         </div>
