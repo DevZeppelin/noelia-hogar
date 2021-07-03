@@ -1,14 +1,10 @@
 import React, { useState } from "react";
-
-
 import { BiHomeHeart } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import {
-  FaWhatsapp,
-  
-  FaFacebook
-  
+  FaWhatsapp,  
+  FaFacebook  
 } from "react-icons/fa";
 import Link from "next/link";
 

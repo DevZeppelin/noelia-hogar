@@ -3,8 +3,7 @@ import Layout from "../components/Layout";
 import Prismic from "prismic-javascript";
 import { Client } from "../prismic-configuration";
 import BlogLayout from "../components/BlogLayout";
-import Link from "next/dist/client/link";
-import { BiSearchAlt } from "react-icons/bi";
+
 
 export default function Ropa({ blogs }) {
   return (
