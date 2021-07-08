@@ -99,42 +99,47 @@ export default function Layout({ children }) {
           className="flex space-x-5 md:space-x-10 text-2xl justify-center"
         >
           <Link
-            href="https://api.whatsapp.com/send?phone=5492634750981"
-            target="_blank"
+            href="https://api.whatsapp.com/send?phone=5492634750981"                       
+            
           >
-            <button
-              aria-label="go to my whatsapp"
-              target="_blank"
+            <a target="_blank">
+              <button
               rel="noopener"
-              alt="whatsapp-logo"
-            >
-              <FaWhatsapp className="hover:text-green-700 text-4xl" />
-            </button>
+                aria-label="go to my whatsapp"
+                alt="whatsapp-logo"
+              >
+                <FaWhatsapp className="hover:text-green-700 text-4xl" />
+              </button>
+            </a>
           </Link>
 
           
-          <Link href="https://www.facebook.com/noelia.raffo.3">
+          <Link href="https://www.facebook.com/noelia.raffo.96">
+          <a target="_blank">
             <button
               aria-label="go to my fabecook"
-              target="_blank"
+             
               rel="noopener"
               alt="facebook-logo"
             >
               <FaFacebook className="hover:text-blue-800 text-4xl" />
             </button>
+            </a>
           </Link>
 
 
 
           <Link href="mailto:noelia81raffo@hotmail.com">
-            <button
-              aria-label="send me a mail"
-              target="_blank"
-              rel="noopener"
-              alt="gmail-logo"
-            >
-              <FiMail className="hover:text-indigo-700 text-4xl" />
-            </button>
+            <a target="_blank">
+              <button
+                aria-label="send me a mail"
+                target="_blank"
+                rel="noopener"
+                alt="gmail-logo"
+              >
+                <FiMail className="hover:text-indigo-700 text-4xl" />
+              </button>
+            </a>
           </Link>
         </div>
         <p className="text-center text-lg mt-6">¡ Pago y Financiamiento con Mercado Pago y todas las tarjetas !</p>
